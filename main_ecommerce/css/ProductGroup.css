@@ -72,8 +72,8 @@ td.price {text-align: right;}
 }
 .productList .inCart.productActions .ajaxBuyableRemove {
 	position: absolute;
-	top: 0;
-	right: 10px;
+	top: 7px;
+	right: 7px;
 	display: block;
 	width: 13px!important;
 	height: 13px!important;
@@ -121,13 +121,8 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 	padding: 1%;
 	min-height: 230px;
 	position: relative;
-	border-width: 0 1px 1px 0;
-	border-color: #D3D4B6;
-	border-radius: 5px 3px 15px 5px;
-	-moz-border-radius: 5px 3px 15px 5px;
-	-webkit-border-radius: 5px 3px 15px 5px;
-	border-style: solid;
 }
+
 .item1, .item4, .item7, .item10, .item13, .item16, .item19, .item22, .item25, .item28, .item31, .item34, .item37 {margin-left: 0px!important;}
 .item3, .item6, .item9, .item12, .item15, .item18, .item21, .item24, .item27, .item30, .item33, .item36, .item39 {margin-right: 0px!important;}
 
@@ -142,6 +137,7 @@ ul.displayStyledefault {padding: 10px; margin: 0px;}
 	padding: 0;
 }
 .productActionsHolder .message {padding: 10px;  margin-top: 25px;}
+.productActionsHolder .message.notForSale {padding: 10px;  margin-top: 0px;}
 .productActionsHolder .message p {line-height: 1; font-size: 0.77em; font-weight: normal}
 
 .displayStyledefault .productItem h3 a {text-decoration: none; font-weight: bold; display: block; text-align: center; margin-top: 0.5em; }
